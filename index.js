@@ -9,6 +9,10 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+app.get("/", (req, res) => {
+  res.json({ message: "Servidor actualizado con server scrapper" });
+});
+
 app.listen(port, () =>
   console.log(`Application run in http://localhost:${port}`)
 );
