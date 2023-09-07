@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.json({ message: "Gracias nexos por la confianza" });
+  res.json({ message: "Sprint 7 finalizado" });
 });
 
 app.listen(port, () =>
