@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.json({ message: "Servidor actualizado con server scrapper" });
+  res.json({ message: "Servidor actualizado con server scrapper by Tauro Dev" });
 });
 
 app.listen(port, () =>
