@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.json({ message: "Server deploy continue Nexos Finished con deploy" });
+  res.send("<h2>Hi Andres, lo logramos</h2>");
 });
 
 app.listen(port, () =>
