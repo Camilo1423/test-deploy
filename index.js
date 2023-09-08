@@ -10,7 +10,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.json({ message: "Sprint 7 finalizado second commit" });
+  res.json({ message: "Server deploy continue Nexos Finished" });
 });
 
 app.listen(port, () =>
