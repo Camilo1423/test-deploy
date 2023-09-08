@@ -10,7 +10,10 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("<h2>Hi Andres, lo logramos</h2>");
+  res.send(`
+  <h2>Hi Andres, lo logramos</h2>
+  <p>Servidor de despliegue continuo realizado por <a href="https://www.taurodev.com">Tauro Dev - Software Factory</a></p>
+  `);
 });
 
 app.listen(port, () =>
