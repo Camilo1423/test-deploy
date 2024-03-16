@@ -12,7 +12,7 @@ app.use(express.json());
 app.get("/", (req, res) => {
   res.send(`
   <h2>Hi Andres, lo logramos</h2>
-  <p>Servidor de despliegue continuo realizado por <a href="https://www.taurodev.com">Tauro Dev - Software Factory 2</a></p>
+  <p>Servidor de despliegue continuo realizado por <a href="https://www.taurodev.com">Tauro Dev - Software Factory</a></p>
   <p>Gracias por el apoyo y la confianza</p>
   <p>Hola Paez modificado by tauro</p>
   `);
